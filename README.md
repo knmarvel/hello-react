@@ -108,9 +108,11 @@ Using the component should look something like this:
     <h1>Hello, <Text color="green" value="Kenzie" /></h1>
 ```
 
-And produce a result that looks something like this:
+And produce a result similar to what you'd get if you used the following HTML:
 
+```html
 <h1>Hello, <span style="color: green">Kenzie</span></h1>
+```
 
 Keep in mind that the crucial bit is the `<Text ... />` part. The use of an
 `<h1>` tag is _not_ relevant to this assessment.
