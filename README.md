@@ -123,7 +123,7 @@ class App extends Component {
     }
 }
 
-ReactDOM.render(<App />, document.getElementById("root"));
+export default App;
 ```
 
 Feel free to take liberties with whatever else appears in your application, but
