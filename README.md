@@ -145,7 +145,12 @@ catch up on), you may consider improving the quality in a number of ways:
       different files. See if you can work out how to create a separate
       `Text.jsx`[1] file and use import it for use inside of `App.js`.
 
-
+## Submission
+`create-react-app` includes instructions for publishing a React application on
+GitHub Pages. However, for _this_ assessment, it's sufficient to submit the
+`git` URL for your repository. Again, we do *not* expect to see a GitHub Pages
+link for _this_ assessment. In the future, we'll demonstrate how to do so and
+update expecations accordingly, in _future_ projets.
 
 
 #### Footnotes
