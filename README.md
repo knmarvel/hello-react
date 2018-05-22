@@ -43,11 +43,26 @@ points is to initialize a react application in your new repository. The tricky
 part is that we want the root of the new React project to be the root of _this_
 repository. That is, the resulting directory structure should __not__ look like this:
 
-<img src="https://my.kenzie.academy/courses/4/files/224/preview" alt="incorrect project structure">
+    .
+    ├── README.md
+    └── hello-react
+        ├── README.md
+        ├── node_modules
+        ├── package.json
+        ├── public
+        ├── src
+        └── yarn.lock
 
 And instead, should look like this:
 
-![correct project structure](https://raw.githubusercontent.com/KenzieAcademy/hello-react/master/screenshots/correct_layout.png)
+    .
+    ├── README.md
+    ├── README.old.md
+    ├── node_modules
+    ├── package.json
+    ├── public
+    ├── src
+    └── yarn.lock
 
 Note the flatter structure of the expected result. You can accomplish that by
 invoking `create-react-app` as follows:
@@ -95,7 +110,7 @@ Using the component should look something like this:
 
 And produce a result that looks something like this:
 
-![result of using component](https://raw.githubusercontent.com/KenzieAcademy/hello-react/master/screenshots/result.png)
+<h1>Hello, <span style="color: green">Kenzie</span></h1>
 
 Keep in mind that the crucial bit is the `<Text ... />` part. The use of an
 `<h1>` tag is _not_ relevant to this assessment.
