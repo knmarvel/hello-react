@@ -23,11 +23,11 @@ Note `github-username` above. In other words, *don't* simply copy-paste the
 code above blindly into a terminal. 
 
 You'll undoubtedly notice that the only thing in this repository is this
-`README.md` file: that's intentional. In addition to getting you some extra
-practice `forking` from existing code rather than initializing new git
-repositories, we wanted to get you comfortable with relying on gathering
-necessary information from project `README.md` files, as it's common practice in
-the development world, especially as far as [open
+`README.md` file and a `screenshots` directory: that's intentional. In addition
+to getting you some extra practice `forking` from existing code rather than
+initializing new git repositories, we wanted to get you comfortable with
+relying on gathering necessary information from project `README.md` files, as
+it's common practice in the development world, especially as far as [open
 source](https://opensource.com/resources/what-open-source) projects are
 concerned.
 
@@ -43,10 +43,59 @@ points is to initialize a react application in your new repository. The tricky
 part is that we want the root of the new React project to be the root of _this_
 repository. That is, rather than a directory structure that looks like this:
 
+![incorrect project structure](https://raw.githubusercontent.com/KenzieAcademy/hello-react/master/screenshots/incorrect_structure.png) 
+
 We'd like you to generate a structure that looks like this:
 
+![correct project structure](https://raw.githubusercontent.com/KenzieAcademy/hello-react/master/screenshots/correct_structure.png) 
+
 You can accomplish that by invoking `create-react-app` as follows:
+
+```console
+foo@bar:~/hello-react $ create-react-app .
+```
+
+Note that this `README.md` file will be renamed `README.old.md`, as
+`create-react-app` generates its own `README.md` file, which is a
+`create-react-app` user guide. We encourage you to take a look at it in your
+free time, as it's jam-packed with all kinds of useful information
 
 If your submission does not follow the above structure, but nevertheless
 functions, you'll receive partial credit. Not paying attention to detail will
 cost you ;-)!
+
+### Step 2: Create a `Text` Component (4 points)
+
+For this step, you will be defining a `Text` component just above the
+`App` component in  `App.js`. We typically like to define components in separate
+files and
+[import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
+them for use in more complex components. However, doing so would require an
+understanding of [ES6
+modules](https://hacks.mozilla.org/2015/08/es6-in-depth-modules/), which is out
+of scope for this particular assessment.
+
+This component will have the following props:
+    - `color`: A string representing the color of text that appears in the
+        component. Any valid [css color](https://www.w3schools.com/cssref/css_colors.asp)
+        should be accepted as a valid string
+    - `value`: This is the actual text to display. We'll learn later how to
+        use the
+        [children](https://reactjs.org/docs/composition-vs-inheritance.html)
+        prop to make this component more pleasant to use, but this will do
+        for now.
+
+Using the component should look something like this:
+```react
+    <h1>Hello, <Text color="green" value="Kenzie" /></h1>
+```
+
+And produce a result that looks something like this:
+
+![result of using component](https://raw.githubusercontent.com/KenzieAcademy/hello-react/master/screenshots/result.png) 
+
+Keep in mind that the crucial bit is the `<Text ... />` part. The use of an
+`<h1>` tag is _not_ relevant to this assessment.
+
+
+### Step 3: Use your `Text` Component in the `App` Component
