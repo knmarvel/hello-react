@@ -18,7 +18,7 @@ foo@bar:~ $ cd hello-react
 foo@bar:~/hello-react $
 ```
 
-Note `github-username` above. In other words, *don't* simply copy-paste the
+Note `github-username` above. In other words, __don't__ simply copy-paste the
 code above blindly into a terminal. 
 
 You'll undoubtedly notice that the only thing in this repository is this
@@ -40,7 +40,7 @@ convenience._
 Assuming you've properly installed `yarn`, all that is required to get these
 points is to initialize a react application in your new repository. The tricky
 part is that we want the root of the new React project to be the root of _this_
-repository. That is, the resulting directory structure should *not* look like this:
+repository. That is, the resulting directory structure should __not__ look like this:
 
 ![incorrect project structure](https://raw.githubusercontent.com/KenzieAcademy/hello-react/master/screenshots/incorrect_layout.png)
 
@@ -149,7 +149,7 @@ catch up on), you may consider improving the quality in a number of ways:
 ## Submission
 `create-react-app` includes instructions for publishing a React application on
 GitHub Pages. However, for _this_ assessment, it's sufficient to submit the
-`git` URL for your repository. Again, we do *not* expect to see a GitHub Pages
+`git` URL for your repository. Again, we do __not__ expect to see a GitHub Pages
 link for _this_ assessment. In the future, we'll demonstrate how to do so and
 update expecations accordingly, in _future_ projets.
 
