@@ -46,8 +46,7 @@ repository. That is, rather than a directory structure that looks like this:
 ![incorrect project structure](https://raw.githubusercontent.com/KenzieAcademy/hello-react/master/screenshots/incorrect_structure.png) 
 
 We'd like you to generate a structure that looks like this:
-
-![correct project structure](https://raw.githubusercontent.com/KenzieAcademy/hello-react/master/screenshots/correct_structure.png) 
+![correct project structure](https://raw.githubusercontent.com/KenzieAcademy/hello-react/master/screenshots/correct_layout.png)
 
 You can accomplish that by invoking `create-react-app` as follows:
 
@@ -92,7 +91,7 @@ Using the component should look something like this:
 
 And produce a result that looks something like this:
 
-![result of using component](https://raw.githubusercontent.com/KenzieAcademy/hello-react/master/screenshots/result.png) 
+![result of using component](https://raw.githubusercontent.com/KenzieAcademy/hello-react/master/screenshots/result.png)
 
 Keep in mind that the crucial bit is the `<Text ... />` part. The use of an
 `<h1>` tag is _not_ relevant to this assessment.
