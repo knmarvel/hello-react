@@ -43,7 +43,7 @@ points is to initialize a react application in your new repository. The tricky
 part is that we want the root of the new React project to be the root of _this_
 repository. That is, the resulting directory structure should __not__ look like this:
 
-![incorrect project structure](https://raw.githubusercontent.com/KenzieAcademy/hello-react/master/screenshots/incorrect_layout.png)
+<img src="https://my.kenzie.academy/courses/4/files/224/preview" alt="incorrect project structure">
 
 And instead, should look like this:
 
