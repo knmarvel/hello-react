@@ -9,7 +9,6 @@ demonstrating a basic understanding of the following:
     - [handling events](https://reactjs.org/docs/handling-events.html)
 
 ## Getting Started
-
 To get started, _fork_ this repository into your own GitHub account then clone
 this repository to your local machine:
 
@@ -75,6 +74,7 @@ understanding of [ES6
 modules](https://hacks.mozilla.org/2015/08/es6-in-depth-modules/), which is out
 of scope for this particular assessment.
 
+
 This component will have the following props:
     - `color`: A string representing the color of text that appears in the
         component. Any valid [css color](https://www.w3schools.com/cssref/css_colors.asp)
@@ -86,7 +86,7 @@ This component will have the following props:
         for now.
 
 Using the component should look something like this:
-```react
+```jsx
     <h1>Hello, <Text color="green" value="Kenzie" /></h1>
 ```
 
@@ -97,5 +97,59 @@ And produce a result that looks something like this:
 Keep in mind that the crucial bit is the `<Text ... />` part. The use of an
 `<h1>` tag is _not_ relevant to this assessment.
 
+### Step 3: Use your `Text` Component in the `App` Component (2 points)
 
-### Step 3: Use your `Text` Component in the `App` Component
+All that remains after having defined your new component is to _use_ it.
+`App.js` should end up looking something like this:
+
+```jsx
+import React, { Component } from 'react';
+
+// ... more imports here
+
+class Text extends Component {
+
+    // ... component implementation here
+}
+
+class App extends Component {
+    render() {
+        return (
+            // ... add at least one instance of `<Text ... />` here
+        );
+    }
+}
+
+ReactDOM.render(<App />, document.getElementById("root"));
+```
+
+Feel free to take liberties with whatever else appears in your application, but
+you must use the new `Text` component once and:
+    - change the color to something _other_ than green
+    - replace the value with _your_ name
+
+Other than that, go wild!
+
+## Bonus (0 points)
+
+If you find yourself with extra time (e.g., don't have other assessments to
+catch up on), you may consider improving the quality in a number of ways:
+    - Using classes here is redundant, since these components are stateless. 
+      Try to implement both `Text` and `App` as
+      [functional components](https://reactjs.org/docs/components-and-props.html)
+    - We hinted at the fact that using `value` for the `<Text>` component was
+      unidiomatic. See if you can understand the `children` prop enough to make
+      usage of the `Text` component look like this instead: 
+        `<Text color="green">Kenzie</Text>`
+    - We also hinted at it being more common to separate components into
+      different files. See if you can work out how to create a separate
+      `Text.jsx`[1] file and use import it for use inside of `App.js`.
+
+
+
+
+#### Footnotes
+[1] You could have just as well named it `Text.js`. The benefit of giving
+components a `.jsx` extension is that it not only signals to other developers
+that what lies within is funky syntax, but also gives your text editor hints,
+thus improving syntax highlighting.
