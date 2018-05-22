@@ -40,15 +40,16 @@ convenience._
 Assuming you've properly installed `yarn`, all that is required to get these
 points is to initialize a react application in your new repository. The tricky
 part is that we want the root of the new React project to be the root of _this_
-repository. That is, rather than a directory structure that looks like this:
+repository. That is, the resulting directory structure should *not* look like this:
 
 ![incorrect project structure](https://raw.githubusercontent.com/KenzieAcademy/hello-react/master/screenshots/incorrect_layout.png)
 
-We'd like you to generate a structure that looks like this:
+And instead, should look like this:
 
 ![correct project structure](https://raw.githubusercontent.com/KenzieAcademy/hello-react/master/screenshots/correct_layout.png)
 
-You can accomplish that by invoking `create-react-app` as follows:
+Note the flatter structure of the expected result. You can accomplish that by
+invoking `create-react-app` as follows:
 
 ```console
 foo@bar:~/hello-react $ create-react-app .
