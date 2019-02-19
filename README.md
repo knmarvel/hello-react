@@ -14,13 +14,8 @@ _fork_ this repository into your own GitHub account then clone
 this repository to your local machine:
 
 ```console
-foo@bar:~ $ git clone git@github.com:github-username/hello-react
-foo@bar:~ $ cd hello-react
-foo@bar:~/hello-react $
+git clone git@gitlab.com:kenzie-academy/se/fe/react/assessment---hello-react.git 
 ```
-
-Note `github-username` above. In other words, __don't__ simply copy-paste the
-code above blindly into a terminal. 
 
 You'll undoubtedly notice that the only thing in this repository is this
 `README.md` file. In addition
