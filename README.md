@@ -58,7 +58,7 @@ Note the flatter structure of the expected result. You can accomplish that by
 invoking `create-react-app` as follows:
 
 ```console
-foo@bar:~/hello-react $ create-react-app .
+create-react-app .
 ```
 
 Note that this `README.md` file will be renamed `README.old.md`, as
