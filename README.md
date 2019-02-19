@@ -36,7 +36,7 @@ _Note: Please see the rubric on Canvas for detailed break down on how this
 assessment is being graded. The information below is provided for your
 convenience._
 
-### Step 1: Basic React Scaffold (4 points)
+### Step 1: Basic React Scaffold
 
 All that is required to get these
 points is to initialize a react application in your new repository. The tricky
@@ -80,7 +80,7 @@ If your submission does not follow the above structure, but nevertheless
 functions, you'll receive partial credit. Not paying attention to detail will
 cost you ;-)!
 
-### Step 2: Create a `Text` Component (4 points)
+### Step 2: Create a `Text` Component
 
 For this step, you will be defining a `Text` component just above the
 `App` component in  `App.js`. We typically like to define components in separate
@@ -115,7 +115,7 @@ And produce a result similar to what you'd get if you used the following HTML:
 ```
 
 
-### Step 3: Use your `Text` Component in the `App` Component (2 points)
+### Step 3: Use your `Text` Component in the `App` Component
 
 All that remains after having defined your new component is to _use_ it.
 `App.js` should end up looking something like this:
@@ -149,7 +149,7 @@ you must use the new `Text` component once and:
 
 Other than that, go wild!
 
-## Bonus (0 points)
+## Bonus
 
 - Using classes here is redundant, since these components are stateless. 
   Try to implement both `Text` and `App` as
