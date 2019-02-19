@@ -10,12 +10,7 @@ demonstrating a basic understanding of the following:
 - Combining components together to make more complex components
 
 ## Getting Started
-_fork_ this repository into your own GitHub account then clone
-this repository to your local machine:
-
-```console
-git clone git@gitlab.com:kenzie-academy/se/fe/react/assessment---hello-react.git 
-```
+Fork and clone this repository to your local machine: https://gitlab.com/kenzie-academy/se/fe/react/assessment---hello-react
 
 You'll undoubtedly notice that the only thing in this repository is this
 `README.md` file. In addition
