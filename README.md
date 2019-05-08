@@ -10,7 +10,7 @@ demonstrating a basic understanding of the following:
 - Combining components together to make more complex components
 
 ## Getting Started
-Fork and clone this repository to your local machine: https://gitlab.com/kenzie-academy/se/fe/react/assessment---hello-react
+Fork and clone this repository to your local machine: [https://gitlab.com/kenzie-academy/se/fe/react/assessment---hello-react](https://gitlab.com/kenzie-academy/se/fe/react/assessment---hello-react)
 
 You'll undoubtedly notice that the only thing in this repository is this
 `README.md` file. In addition
@@ -58,7 +58,7 @@ Note the flatter structure of the expected result. You can accomplish that by
 invoking `create-react-app` as follows:
 
 ```console
-create-react-app .
+npx create-react-app .
 ```
 
 Note that this `README.md` file will be renamed `README.old.md`, as
