@@ -156,7 +156,7 @@ Other than that, go wild!
 GitHub Pages. However, for _this_ assessment, it's sufficient to submit the
 `git` URL for your repository. Again, we do __not__ expect to see a GitHub Pages
 link for _this_ assessment. In the future, we'll demonstrate how to do so and
-update expecations accordingly, in _future_ projets.
+update expectations accordingly, in _future_ projets.
 
 #### Footnotes
 [1] You can also name it `Text.js`. The benefit of giving
